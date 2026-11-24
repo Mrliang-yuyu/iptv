@@ -1,40 +1,33 @@
 {
-  "updatedAt": "2026-11-25T00:35:11.655043+08:00",
-  "equity": 11.1655,
-  "available": 5.1888,
-  "frozen": 5.9767,
-  "todayPnl": 0.0,
+  "updatedAt": "2026-11-25T00:40:12.254495+08:00",
+  "equity": 11.1867,
+  "available": 11.1867,
+  "frozen": 0.0,
+  "todayPnl": 0.3225,
   "todayCount": 0,
   "dailyStop": -1.0,
   "coins": [
     {
       "coin": "ETH",
-      "price": 1669.3,
-      "pct_b": 0.005,
-      "day_low": 1667.54,
-      "rebound_pct": 0.11,
+      "price": 1667.09,
+      "pct_b": -0.048,
+      "day_low": 1663.23,
+      "rebound_pct": 0.23,
       "trend_4h": "short",
       "trend_15m": "short",
       "trend_5m": "short",
       "signal": null,
-      "position": {
-        "direction": "short",
-        "entry": 1700.04,
-        "size": 0.1,
-        "sl": 1717.1,
-        "tp": 1666.1,
-        "upl": 0.3078
-      },
+      "position": null,
       "count": 7,
-      "wins": 3,
+      "wins": 4,
       "losses": 3
     },
     {
       "coin": "BTC",
-      "price": 59467.4,
-      "pct_b": -0.008,
-      "day_low": 59444.7,
-      "rebound_pct": 0.04,
+      "price": 59390.1,
+      "pct_b": -0.071,
+      "day_low": 59300.3,
+      "rebound_pct": 0.15,
       "trend_4h": "short",
       "trend_15m": "short",
       "trend_5m": "short",
@@ -46,6 +39,16 @@
     }
   ],
   "closed": [
+    {
+      "coin": "ETH",
+      "direction": "short",
+      "entry": 1700.04,
+      "exit": 1666.11,
+      "reason": "take_profit",
+      "netPnl": 0.3225,
+      "openedAt": "2026-11-24T12:28:56.650493+08:00",
+      "closedAt": "2026-11-25T00:38:53.270933+08:00"
+    },
     {
       "coin": "ETH",
       "direction": "short",
@@ -135,16 +138,6 @@
       "netPnl": -0.137,
       "openedAt": "2026-11-19T09:28:58.216860+08:00",
       "closedAt": "2026-11-19T11:58:58.613186+08:00"
-    },
-    {
-      "coin": "ETH",
-      "direction": "short",
-      "entry": 1767.98,
-      "exit": 1785.2,
-      "reason": "stop_loss",
-      "netPnl": -0.152,
-      "openedAt": "2026-11-19T09:39:02.073511+08:00",
-      "closedAt": "2026-11-19T11:48:56.102159+08:00"
     }
   ]
 }
