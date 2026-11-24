@@ -1,18 +1,18 @@
 {
-  "updatedAt": "2026-11-24T22:25:13.258053+08:00",
-  "equity": 10.8801,
+  "updatedAt": "2026-11-24T22:30:14.598186+08:00",
+  "equity": 10.8344,
   "available": 5.1888,
-  "frozen": 5.6913,
+  "frozen": 5.6456,
   "todayPnl": 0.0,
   "todayCount": 1,
   "dailyStop": -1.0,
   "coins": [
     {
       "coin": "ETH",
-      "price": 1697.42,
-      "pct_b": 0.733,
+      "price": 1702.04,
+      "pct_b": 0.866,
       "day_low": 1667.69,
-      "rebound_pct": 1.78,
+      "rebound_pct": 2.06,
       "trend_4h": "short",
       "trend_15m": "long",
       "trend_5m": "long",
@@ -23,7 +23,7 @@
         "size": 0.1,
         "sl": 1717.1,
         "tp": 1666.1,
-        "upl": 0.0227
+        "upl": -0.0151
       },
       "count": 7,
       "wins": 3,
@@ -31,10 +31,10 @@
     },
     {
       "coin": "BTC",
-      "price": 60355.0,
-      "pct_b": 0.812,
+      "price": 60497.9,
+      "pct_b": 0.919,
       "day_low": 59366.0,
-      "rebound_pct": 1.67,
+      "rebound_pct": 1.91,
       "trend_4h": "short",
       "trend_15m": "long",
       "trend_5m": "long",
