@@ -1,43 +1,36 @@
 {
-  "updatedAt": "2026-11-25T11:00:22.435791+08:00",
-  "equity": 11.4552,
-  "available": 5.5734,
-  "frozen": 5.8818,
-  "todayPnl": 0.3225,
+  "updatedAt": "2026-11-25T11:05:14.686002+08:00",
+  "equity": 11.4993,
+  "available": 11.4993,
+  "frozen": 0.0,
+  "todayPnl": 0.6337,
   "todayCount": 1,
   "dailyStop": -1.0,
   "coins": [
     {
       "coin": "ETH",
-      "price": 1653.99,
-      "pct_b": 0.097,
-      "day_low": 1650.19,
-      "rebound_pct": 0.23,
+      "price": 1652.65,
+      "pct_b": 0.066,
+      "day_low": 1648.04,
+      "rebound_pct": 0.28,
       "trend_4h": "short",
       "trend_15m": "short",
-      "trend_5m": "long",
+      "trend_5m": "short",
       "signal": null,
-      "position": {
-        "direction": "short",
-        "entry": 1681.46,
-        "size": 0.1,
-        "sl": 1698.79,
-        "tp": 1648.33,
-        "upl": 0.2763
-      },
+      "position": null,
       "count": 8,
-      "wins": 4,
+      "wins": 5,
       "losses": 3
     },
     {
       "coin": "BTC",
-      "price": 59165.4,
-      "pct_b": 0.152,
+      "price": 59071.2,
+      "pct_b": 0.077,
       "day_low": 58913.9,
-      "rebound_pct": 0.43,
+      "rebound_pct": 0.27,
       "trend_4h": "short",
       "trend_15m": "short",
-      "trend_5m": "long",
+      "trend_5m": "short",
       "signal": null,
       "position": null,
       "count": 5,
@@ -46,6 +39,16 @@
     }
   ],
   "closed": [
+    {
+      "coin": "ETH",
+      "direction": "short",
+      "entry": 1681.46,
+      "exit": 1648.67,
+      "reason": "take_profit",
+      "netPnl": 0.3112,
+      "openedAt": "2026-11-25T01:48:56.242809+08:00",
+      "closedAt": "2026-11-25T11:03:50.326045+08:00"
+    },
     {
       "coin": "ETH",
       "direction": "short",
@@ -135,16 +138,6 @@
       "netPnl": 0.2389,
       "openedAt": "2026-11-20T02:39:02.057023+08:00",
       "closedAt": "2026-11-20T04:33:51.620421+08:00"
-    },
-    {
-      "coin": "BTC",
-      "direction": "short",
-      "entry": 62636.0,
-      "exit": 63257.9,
-      "reason": "stop_loss",
-      "netPnl": -0.137,
-      "openedAt": "2026-11-19T09:28:58.216860+08:00",
-      "closedAt": "2026-11-19T11:58:58.613186+08:00"
     }
   ]
 }
