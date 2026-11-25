@@ -1,18 +1,18 @@
 {
-  "updatedAt": "2026-11-26T01:05:15.023452+08:00",
-  "equity": 11.6786,
-  "available": 6.0006,
-  "frozen": 5.678,
-  "todayPnl": 0.0,
+  "updatedAt": "2026-11-26T01:10:12.496510+08:00",
+  "equity": 11.6392,
+  "available": 11.6392,
+  "frozen": 0.0,
+  "todayPnl": -0.1951,
   "todayCount": 1,
   "dailyStop": -1.0,
   "coins": [
     {
       "coin": "ETH",
-      "price": 1651.01,
-      "pct_b": 0.794,
+      "price": 1660.41,
+      "pct_b": 1.041,
       "day_low": 1629.07,
-      "rebound_pct": 1.35,
+      "rebound_pct": 1.92,
       "trend_4h": "short",
       "trend_15m": "long",
       "trend_5m": "long",
@@ -24,28 +24,31 @@
     },
     {
       "coin": "BTC",
-      "price": 58746.3,
-      "pct_b": 0.783,
+      "price": 59273.2,
+      "pct_b": 1.156,
       "day_low": 58074.1,
-      "rebound_pct": 1.16,
+      "rebound_pct": 2.06,
       "trend_4h": "short",
       "trend_15m": "long",
       "trend_5m": "long",
       "signal": null,
-      "position": {
-        "direction": "short",
-        "entry": 58249.8,
-        "size": 0.03,
-        "sl": 58840.7,
-        "tp": 57092.9,
-        "upl": -0.145
-      },
+      "position": null,
       "count": 7,
       "wins": 4,
-      "losses": 2
+      "losses": 3
     }
   ],
   "closed": [
+    {
+      "coin": "BTC",
+      "direction": "short",
+      "entry": 58249.8,
+      "exit": 58841.6,
+      "reason": "stop_loss",
+      "netPnl": -0.1951,
+      "openedAt": "2026-11-26T00:39:05.210947+08:00",
+      "closedAt": "2026-11-26T01:08:53.728205+08:00"
+    },
     {
       "coin": "BTC",
       "direction": "short",
@@ -135,16 +138,6 @@
       "netPnl": 0.3024,
       "openedAt": "2026-11-20T06:59:15.851199+08:00",
       "closedAt": "2026-11-20T09:58:58.338135+08:00"
-    },
-    {
-      "coin": "ETH",
-      "direction": "short",
-      "entry": 1782.47,
-      "exit": 1746.89,
-      "reason": "take_profit",
-      "netPnl": 0.2705,
-      "openedAt": "2026-11-20T02:43:58.959005+08:00",
-      "closedAt": "2026-11-20T05:18:59.815518+08:00"
     }
   ]
 }
