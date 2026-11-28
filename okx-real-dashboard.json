@@ -1,40 +1,33 @@
 {
-  "updatedAt": "2026-11-28T21:41:22.550483+08:00",
-  "equity": 14.5209,
-  "available": 1.2075,
-  "frozen": 13.3134,
-  "todayPnl": 0.0,
+  "updatedAt": "2026-11-28T21:45:13.446676+08:00",
+  "equity": 14.552,
+  "available": 8.2761,
+  "frozen": 6.2759,
+  "todayPnl": 0.3801,
   "todayCount": 2,
   "dailyStop": -1.0,
   "coins": [
     {
       "coin": "ETH",
-      "price": 1640.07,
-      "pct_b": -0.444,
-      "day_low": 1637.44,
-      "rebound_pct": 0.16,
+      "price": 1638.15,
+      "pct_b": -0.308,
+      "day_low": 1635.01,
+      "rebound_pct": 0.19,
       "trend_4h": "short",
       "trend_15m": "short",
       "trend_5m": "short",
       "signal": null,
-      "position": {
-        "direction": "short",
-        "entry": 1669.6,
-        "size": 0.12,
-        "sl": 1686.3,
-        "tp": 1636.21,
-        "upl": 0.3624
-      },
+      "position": null,
       "count": 9,
-      "wins": 5,
+      "wins": 6,
       "losses": 3
     },
     {
       "coin": "BTC",
-      "price": 59028.0,
-      "pct_b": 0.028,
+      "price": 58992.1,
+      "pct_b": 0.029,
       "day_low": 58903.8,
-      "rebound_pct": 0.21,
+      "rebound_pct": 0.15,
       "trend_4h": "short",
       "trend_15m": "short",
       "trend_5m": "short",
@@ -45,7 +38,7 @@
         "size": 0.03,
         "sl": 60527.6,
         "tp": 58729.7,
-        "upl": 0.2791
+        "upl": 0.2822
       },
       "count": 8,
       "wins": 4,
@@ -53,6 +46,16 @@
     }
   ],
   "closed": [
+    {
+      "coin": "ETH",
+      "direction": "short",
+      "entry": 1669.6,
+      "exit": 1636.27,
+      "reason": "take_profit",
+      "netPnl": 0.3801,
+      "openedAt": "2026-11-28T03:13:59.910410+08:00",
+      "closedAt": "2026-11-28T21:43:56.359564+08:00"
+    },
     {
       "coin": "BTC",
       "direction": "short",
@@ -142,16 +145,6 @@
       "netPnl": 0.295,
       "openedAt": "2026-11-20T19:18:55.107373+08:00",
       "closedAt": "2026-11-20T23:13:54.312516+08:00"
-    },
-    {
-      "coin": "ETH",
-      "direction": "short",
-      "entry": 1760.37,
-      "exit": 1725.03,
-      "reason": "take_profit",
-      "netPnl": 0.3024,
-      "openedAt": "2026-11-20T06:59:15.851199+08:00",
-      "closedAt": "2026-11-20T09:58:58.338135+08:00"
     }
   ]
 }
